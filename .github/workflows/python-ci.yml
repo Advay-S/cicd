@@ -24,7 +24,7 @@ jobs:
         pip install -r requirements.txt
 
     - name: Run Calculator Script
-      run: python Calc.py
+      run: python app.py
 
     - name: Run Tests
       run: python calcTest.py
@@ -38,3 +38,4 @@ jobs:
 
       - name: Simulate Deployment
         run: echo "Deployment Successful! ✅"
+
